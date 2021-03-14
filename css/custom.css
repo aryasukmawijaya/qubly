@@ -1,0 +1,173 @@
+.header-bg {
+    background: url('../images/header-bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar .get-started {
+    border-radius: 20px;
+    background: none;
+    color: #722ED1;
+    border: 1px solid #722ED1;
+}
+
+.navbar .get-started:hover {
+    background-color: #722ED1;
+    color: white;
+}
+
+.hero .released, .why-qubly .why-qubly-icon, .for-product-teams .fpt-text, .for-engineering-teams .fet-text {
+    background-color: #F9F0FF;
+    color: #722ED1;
+    display: inline-table;
+    border-radius: 20px;
+}
+
+.released a {
+    color: #722ED1;
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 100px 0 330px;
+}
+
+.hero p, .why-qubly p, .for-product-teams p, .for-engineering-teams p {
+    color: #8989A2;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.hero .btn {
+    padding: 11px 25px;
+    border-radius: 24px;
+}
+
+.hero .btn-primary {
+    background-color: #722ED1;
+    border: 1px solid rgb(98, 21, 206);
+}
+
+.hero .btn-primary:hover {
+    background-color:  rgb(98, 21, 206);
+}
+
+.hero .btn-secondary {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.why-qubly, .for-product-teams, .for-engineering-teams, .sign-up-form {
+    padding: 80px 0;
+}
+
+.why-qubly h2, .why-qubly h3, .for-product-teams h2, .for-engineering-teams h2, .sign-up-form h2 {
+    font-weight: 700;
+}
+
+.testimonials {
+    padding: 180px 0 200px;
+    background: url('../images/testimonials-bg.png');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials p {
+    font-size: 18px;   
+}
+
+.sign-up-form .bg-purple {
+    background-color: #F9F0FF;
+    height: 100%;
+}
+
+.sign-up-form .bg-white {
+    background-color: white;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.sign-up-form h5 {
+    font-weight: 700;
+}
+
+.sign-up-form .bg-white input {
+    padding: 25px 18px;
+}
+
+.sign-up-form .bg-white button {
+    padding: 16px 0;
+    background-color: #722ED1;
+    border: 1px solid rgb(98, 21, 206);
+}
+
+.sign-up-form .bg-white button:hover {
+    background-color: rgb(98, 21, 206);
+}
+
+.sign-up-form .bg-white p {
+    color: #8989A2;
+}
+
+.sign-up-form .bg-white a {
+    text-decoration: underline;
+}
+
+.sign-up-form .bg-white input::placeholder {
+    color: #8989A2;
+}
+
+.sign-up-form .divider {
+    margin: 35px 0 30px;
+    text-align: center;
+}
+
+.sign-up-form .divider::after {
+    content: 'OR';
+    top: -13px;
+    position: relative;
+    padding: 5px 18px;
+    background-color: white;
+}
+
+.footer {
+    background-color: #FBFCFF;
+}
+
+.footer h6 {
+    color: #160637;
+    font-weight: 700;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin: 8px 0;  
+}
+
+.footer ul li a {
+    color: #160637;
+}
+
+.footer .newsletter {
+    border: none;
+    box-shadow: 1px 3px 8px #eee;
+}
+
+.footer .btn-primary {
+    background-color: #722ED1;
+    border: 1px solid rgb(98, 21, 206);
+}
+
+.footer .btn-primary:hover {
+    background-color: rgb(98, 21, 206);
+}
